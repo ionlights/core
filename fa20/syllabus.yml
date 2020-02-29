@@ -1,0 +1,142 @@
+meeting00: !Meeting
+  required:
+    date: ''
+    title: meeting00
+    authors: []
+    filename: meeting00
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting01: !Meeting
+  required:
+    date: ''
+    title: meeting01
+    authors: []
+    filename: meeting01
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting02: !Meeting
+  required:
+    date: ''
+    title: meeting02
+    authors: []
+    filename: meeting02
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting03: !Meeting
+  required:
+    date: ''
+    title: meeting03
+    authors: []
+    filename: meeting03
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting04: !Meeting
+  required:
+    date: ''
+    title: meeting04
+    authors: []
+    filename: meeting04
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting05: !Meeting
+  required:
+    date: ''
+    title: meeting05
+    authors: []
+    filename: meeting05
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting06: !Meeting
+  required:
+    date: ''
+    title: meeting06
+    authors: []
+    filename: meeting06
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting07: !Meeting
+  required:
+    date: ''
+    title: meeting07
+    authors: []
+    filename: meeting07
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting08: !Meeting
+  required:
+    date: ''
+    title: meeting08
+    authors: []
+    filename: meeting08
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting09: !Meeting
+  required:
+    date: ''
+    title: meeting09
+    authors: []
+    filename: meeting09
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+meeting10: !Meeting
+  required:
+    date: ''
+    title: meeting10
+    authors: []
+    filename: meeting10
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
