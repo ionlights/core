@@ -2,11 +2,11 @@ name: "Validate Syllabus"
 
 on:
   pull_request:
-    paths: 
+    paths:
       - "**/syllabus.yml"
       - "!.github/workflows/syllabus.yml"
   push:
-    paths: 
+    paths:
       - "**/syllabus.yml"
       - "!.github/workflows/syllabus.yml"
 
@@ -30,7 +30,13 @@ jobs:
           repository: "ionlights/tasks"
           path: "tasks"
 
+      - name: "Setup ucfai/tasks' environment."
+        run: |
+          conda env create -f tasks/env.production.yml
+          conda activate ucfai-tasks
+          inv -f ${{ env.GROUP }}/invoke.py -l
+
       - name: Purposely Fail
         run: |
-          ls -l ${{ env.WORKSPACE }}
+          inv -f ${{ env.GROUP }}/invoke.py syllabus.parse
           exit -1
