@@ -1,0 +1,56 @@
+
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: '2020-06-01T00:00:00'
+    title: meeting00
+    authors: []
+    filename: meeting00
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+- !Meeting
+  required:
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: '2020-06-08T00:00:00'
+    title: meeting01
+    authors: []
+    filename: meeting01
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: '2020-06-15T00:00:00'
+    title: meeting02
+    authors: []
+    filename: meeting02
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
+
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: '2020-06-22T00:00:00'
+    title: meeting03
+    authors: []
+    filename: meeting03
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+
+  optional: {}  # all keys are listed in the docs
