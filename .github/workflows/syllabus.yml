@@ -1,11 +1,11 @@
 name: "React to Syllabus Changes"
 
-on:
+on: [push, ]
   # pull_request:
-  push:
-    paths: 
-      - "**/syllabus.yml"
-      - "!.github/workflows/syllabus.yml"
+  # push:
+  #   paths: 
+  #     - "**/syllabus.yml"
+  #     - "!.github/workflows/syllabus.yml"
   #   paths: 
   #     - "**/syllabus.yml"
   #     - "!.github/workflows/syllabus.yml"
