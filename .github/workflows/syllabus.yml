@@ -1,11 +1,11 @@
 name: "React to Syllabus Changes"
 
 on:
-  pull_request:
+  # pull_request:
+  push:
     paths: 
       - "**/syllabus.yml"
       - "!.github/workflows/syllabus.yml"
-  # push:
   #   paths: 
   #     - "**/syllabus.yml"
   #     - "!.github/workflows/syllabus.yml"
@@ -31,6 +31,7 @@ jobs:
         commands: >- 
           group.validate-syllabus
 
+    # https://github.com/marketplace/actions/add-pr-comment
     - name: "Post `status` as PR Comment"
       uses: mshick/add-pr-comment@v1
       with:
@@ -64,6 +65,7 @@ jobs:
         commands: >-
           group.touch
 
+    # https://github.com/marketplace/actions/add-pr-comment
     - name: "Post `status` as PR Comment"
       uses: mshick/add-pr-comment@v1
       with:
@@ -72,6 +74,7 @@ jobs:
           ${{ steps.autobot.outputs.status }}
         allow-repeats: true
 
+    # https://github.com/marketplace/actions/git-auto-commit
     - name: "Push Changes to PR"
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
